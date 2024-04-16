@@ -44,25 +44,22 @@ function DeliveryModal({ isOpen, onClose }: Props) {
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <FloatingLabel
-              label="Name this delivery"
-              form_label="name_delivery"
-            />
-            <FloatingLabel label="Region" form_label="region" />
+            <FloatingLabel label="Name this delivery" name="name_delivery" />
+            <FloatingLabel label="Region" name="region" />
             <Stack>
               <Text>How many days it takes to deliver?</Text>
               <Flex gap="10px">
                 <SpecialFlexWrapper>
-                  <FloatingLabel label="From" form_label="form" />
+                  <FloatingLabel label="From" name="form" />
                 </SpecialFlexWrapper>
                 <SpecialFlexWrapper>
-                  <FloatingLabel label="To" form_label="to" />
+                  <FloatingLabel label="To" name="to" />
                 </SpecialFlexWrapper>
               </Flex>
             </Stack>
             <FloatingLabel
               label="Do you charge Fee for delivery?"
-              form_label="charge_fee"
+              name="charge_fee"
             />
             <LoginButton
               onSetClick={() => {
