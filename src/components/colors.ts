@@ -1,0 +1,21 @@
+let colors = {
+  primaryColor: `linear-gradient(160.29deg,#00b53f .67%,#00831e 100.93%)`,
+  primary: "#00b53f",
+  buttonColor: "#ea7832",
+  white: "#fff",
+  chakraColorsGray50: "#F7FAF",
+  chakraColorsGray100: "#EDF2F7",
+  chakraColorsGray200: "#E2E8F0",
+  chakraColorsGray300: "#CBD5E0",
+  chakraColorsGray400: "#A0AEC0",
+  chakraColorsGray500: "#718096",
+  chakraColorsGray600: "#4A5568",
+  chakraColorsGray700: "#2D3748",
+  chakraColorsGray800: " #1A202C",
+  chakraColorsGray900: "#171923",
+  borderBottom: "1px solid #EBF2F7",
+  borderBottomDark: "1px solid #4A5568",
+  bBottom: "1px dotted #EBF2F7",
+  bBottomDark: "1px dotted #4A5568",
+};
+export default colors;

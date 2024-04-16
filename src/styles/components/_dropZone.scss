@@ -1,0 +1,34 @@
+*{
+    padding:0;
+}
+.drop__zone__image{
+   position: relative;
+   & .icon_remover{
+    position: absolute;
+    top:2px;
+    right:1px;
+    background-color: #000;
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+   }
+   &:hover .icon_remover{
+    display: flex;
+    z-index: 100;
+    
+   }
+   &:hover::after{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+   }
+}
